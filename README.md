@@ -31,6 +31,3 @@ The Top Stories are fetched from the New York Times public API.
 - sqflite: ^2.2.0+3
 - webview_flutter: ^3.0.4
 
-
-## Gallery
-![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.22 PM.jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM (2).jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM (1).jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM.jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.22 PM (1).jpeg)

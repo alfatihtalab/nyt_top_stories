@@ -21,7 +21,8 @@ class AppProvider extends StatelessWidget {
     ],
 
         child: MaterialApp.router(
-      theme: ThemeData(useMaterial3: true),
+      theme: ThemeData.light(useMaterial3: true),
+      darkTheme: ThemeData.dark(useMaterial3: true),
       debugShowCheckedModeBanner: false,
       routerConfig: _router,
       title: 'GoRouter Example',
