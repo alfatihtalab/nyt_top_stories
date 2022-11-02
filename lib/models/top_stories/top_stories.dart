@@ -8,6 +8,6 @@
 //     required this.sectionName,
 //     required this.topStoriesResponse});
 //
-//   final String sectionName;
-//   final TopStoriesResponse topStoriesResponse;
+//   final String title;
+//   final description topStoriesResponse;
 // }
