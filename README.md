@@ -31,3 +31,10 @@ The Top Stories are fetched from the New York Times public API.
 - sqflite: ^2.2.0+3
 - webview_flutter: ^3.0.4
 
+## Gallery
+
+![WhatsApp Image 2022-11-02 at 12 13 22 PM](https://user-images.githubusercontent.com/35189369/199469721-536d26a4-eab7-41b4-8d06-e1a27afe3d6d.jpeg)
+![WhatsApp Image 2022-11-02 at 12 13 21 PM (2)](https://user-images.githubusercontent.com/35189369/199469727-f93b8076-88c4-4cf2-8123-81105ca14456.jpeg)
+![WhatsApp Image 2022-11-02 at 12 13 21 PM (1)](https://user-images.githubusercontent.com/35189369/199469730-41f4451e-1281-4401-9289-b186cd99aa98.jpeg)
+![WhatsApp Image 2022-11-02 at 12 13 21 PM](https://user-images.githubusercontent.com/35189369/199469731-65ecd2c2-5308-49ac-b7f0-81132bf341b5.jpeg)
+![WhatsApp Image 2022-11-02 at 12 13 22 PM (1)](https://user-images.githubusercontent.com/35189369/199469737-e9c70afc-84e9-4a5e-a18a-3213ca0383d1.jpeg)
