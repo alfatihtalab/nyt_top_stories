@@ -40,7 +40,7 @@ class AppProvider extends StatelessWidget {
       GoRoute(
         path: '/errorPage',
         builder: (BuildContext context, GoRouterState state) {
-          return ErrorConnectionPage();
+          return const ErrorConnectionPage();
         },
       ),
     ],
