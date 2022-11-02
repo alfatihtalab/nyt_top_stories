@@ -1,5 +1,7 @@
 import 'package:retrofit/retrofit.dart';
 import 'package:dio/dio.dart';
+
+import '../../../utilities/constant.dart';
 part 'rest_client_data_provider.g.dart';
 
 //
@@ -21,7 +23,7 @@ part 'rest_client_data_provider.g.dart';
 abstract class RestClientDataProvider {
   factory RestClientDataProvider(Dio dio, {String baseUrl}) = _RestClientDataProvider;
 
-  @GET("/{sectionName}.json?api-key=FGnRdtmYo3PFRISFszukPlrJt6F2qEzt")
+  @GET("/{sectionName}.json?api-key=$apiKey")
   Future<HttpResponse> getTopStoriesBySection(@Path("sectionName") String sectionName);
 
 
