@@ -9,7 +9,7 @@ The Top Stories are fetched from the New York Times public API.
 
 ## How to Set up and Run the Project
 - Clone the repository: `https://github.com/alfatihtalab/nyt_top_stories.git`
-- Get and update the dependency: `flutter pub get`
+- Get and update the dependencies: `flutter pub get`
 - Run the app: `flutter run`
 
 
@@ -31,6 +31,6 @@ The Top Stories are fetched from the New York Times public API.
 - sqflite: ^2.2.0+3
 - webview_flutter: ^3.0.4
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Gallery
+![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.22 PM.jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM (2).jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM (1).jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.21 PM.jpeg)![](../../Downloads/WhatsApp Image 2022-11-02 at 12.13.22 PM (1).jpeg)
