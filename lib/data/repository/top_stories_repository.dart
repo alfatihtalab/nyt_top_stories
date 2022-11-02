@@ -10,7 +10,7 @@ class TopStoriesRepository {
   final client = RestClientDataProvider(Dio());
 
 
-
+  //Get all news from the api and convert it into dart object
   Future<TopStoriesResponse> getTopStoriesData({required String sectionName}) async {
     late TopStoriesResponse topStoriesResponse;
 
@@ -20,7 +20,7 @@ class TopStoriesRepository {
     return topStoriesResponse;
   }
 
-
+  //Get all news from the api
   Future<Response> getResponseFromApi({required String sectionName}) async {
 
       try {

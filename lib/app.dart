@@ -29,6 +29,7 @@ class AppProvider extends StatelessWidget {
     ));
   }
 
+  // routes of the page using new lib go_router
   final GoRouter _router = GoRouter(
     routes: <GoRoute>[
       GoRoute(

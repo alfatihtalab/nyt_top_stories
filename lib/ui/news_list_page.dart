@@ -202,10 +202,10 @@ class _NewsListPageState extends State<NewsListPage>
                                     storyDetail:
                                     foundNewsList[index],
                                   );
-                                }): Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: const Text(
-                              'No results found',
+                                }): const Padding(
+                                  padding: EdgeInsets.all(8.0),
+                                  child: Text(
+                              'No results founded',
                               style: TextStyle(fontSize: 22),
                             ),
                                 ) :ListView.builder(
@@ -247,10 +247,10 @@ class _NewsListPageState extends State<NewsListPage>
                                     foundNewsList[index],
                                   );
                                 }) :
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: const Text(
-                          'No results found',
+                            const Padding(
+                              padding: EdgeInsets.all(8.0),
+                              child: Text(
+                          'No results founded',
                           style: TextStyle(fontSize: 22),
                         ),
                             ): GridView.builder(
@@ -277,11 +277,11 @@ class _NewsListPageState extends State<NewsListPage>
                     return Column(
                       children: [
                         const Center(child:Text("No Internet connection!")),
-                        SizedBox(height: 10,),
+                        const SizedBox(height: 10,),
                         TextButton(onPressed: ()async{
                           await newsProvider.getNewsDataFromApi(sectionName: sectionNames.first);
 
-                        }, child: Text("Try again"))
+                        }, child: const Text("Try again"))
                       ],
                     );
                   }
@@ -291,7 +291,7 @@ class _NewsListPageState extends State<NewsListPage>
                 },
               ),
 
-              SizedBox(
+              const SizedBox(
                 height: 10,
               )
             ],

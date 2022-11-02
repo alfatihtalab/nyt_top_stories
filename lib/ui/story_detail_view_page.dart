@@ -21,7 +21,7 @@ class _StoryDetailPageState extends State<StoryDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("NYT Story Detail"),
+        title: const Text("NYT Story Detail"),
       ),
       body: SafeArea(
         child: Column(
@@ -40,11 +40,11 @@ class _StoryDetailPageState extends State<StoryDetailPage> {
                         image:
                         AssetImage("images/placeholder.png")
                     ),
-                  borderRadius: BorderRadius.all(Radius.circular(12)),
+                  borderRadius: const BorderRadius.all(Radius.circular(12)),
                 ),
               ),
             ),
-            Divider(),
+            const Divider(),
             Flexible(
               flex: 2,
               child: ListView(
@@ -52,8 +52,8 @@ class _StoryDetailPageState extends State<StoryDetailPage> {
                    Padding(
                     padding: EdgeInsets.all(8.0),
                     child: Text(
-                      "${widget.storyDetail.title ?? "No title founded" }",
-                      style: TextStyle(fontSize: 24),
+                      widget.storyDetail.title ?? "No title founded",
+                      style: const TextStyle(fontSize: 24),
                     ),
                   ),
                    Padding(
@@ -79,7 +79,7 @@ class _StoryDetailPageState extends State<StoryDetailPage> {
                           Navigator.of(context)
                               .push(MaterialPageRoute(
                               builder: (context)=> WebViewPage(url: widget.storyDetail.webViewUrl!,)));
-                        }, child: Text("... See more"),),
+                        }, child: const Text("... See more"),),
                       ),
                     ],
                   ),
