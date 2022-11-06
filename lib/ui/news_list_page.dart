@@ -146,9 +146,10 @@ class _NewsListPageState extends State<NewsListPage>
                             ),
                             IconButton(
                                 onPressed: () async {
-                                  await newsProvider.getNewsDataFromApi(
-                                      sectionName: dropdownValue);
+                                  
                                   if (!isListView) {
+                                    await newsProvider.getNewsDataFromApi(
+                                      sectionName: dropdownValue);
                                     setState(() {
                                       isListView = true;
                                     });
